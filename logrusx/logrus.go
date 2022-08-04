@@ -6,7 +6,9 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"time"
 
+	"github.com/evalphobia/logrus_sentry"
 	"github.com/sirupsen/logrus"
 
 	gelf "github.com/seatgeek/logrus-gelf-formatter"
@@ -57,6 +59,14 @@ func newLogger(parent *logrus.Logger, o *options) *logrus.Logger {
 	if o.exitFunc != nil {
 		l.ExitFunc = o.exitFunc
 	}
+
+	sentry_hook, _ := logrus_sentry.NewSentryHook("https://75581491fa7d4fafa7b58e1fda0954d2@sentry.galaxyedu.io/50", []logrus.Level{
+		logrus.PanicLevel,
+		logrus.FatalLevel,
+		logrus.ErrorLevel,
+	})
+	sentry_hook.Timeout = time.Duration(1000000000)
+	l.AddHook(sentry_hook)
 
 	for _, hook := range o.hooks {
 		l.AddHook(hook)
