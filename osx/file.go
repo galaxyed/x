@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/x/httpx"
+	"github.com/galaxyed/x/httpx"
 )
 
 type options struct {

@@ -9,11 +9,11 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 
-	"github.com/ory/x/tracing"
+	"github.com/galaxyed/x/tracing"
 
 	"github.com/hashicorp/go-retryablehttp"
 
-	"github.com/ory/x/logrusx"
+	"github.com/galaxyed/x/logrusx"
 )
 
 type resilientOptions struct {

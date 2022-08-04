@@ -22,8 +22,8 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ory/x/logrusx"
-	"github.com/ory/x/tracing"
+	"github.com/galaxyed/x/logrusx"
+	"github.com/galaxyed/x/tracing"
 
 	coltracepb "go.opentelemetry.io/proto/otlp/collector/trace/v1"
 

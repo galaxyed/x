@@ -13,7 +13,7 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/ory/jsonschema/v3"
-	"github.com/ory/x/jsonschemax"
+	"github.com/galaxyed/x/jsonschemax"
 )
 
 var schema = "..."

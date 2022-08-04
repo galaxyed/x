@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ory/x/logrusx"
+	"github.com/galaxyed/x/logrusx"
 )
 
 func TestParseConnectionOptions(t *testing.T) {

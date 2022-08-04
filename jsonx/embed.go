@@ -10,8 +10,8 @@ import (
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"
 
-	"github.com/ory/x/osx"
-	"github.com/ory/x/stringslice"
+	"github.com/galaxyed/x/osx"
+	"github.com/galaxyed/x/stringslice"
 )
 
 type options struct {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/x/mapx"
+	"github.com/galaxyed/x/mapx"
 )
 
 // Claims represents a JSON Web Token's standard claims.

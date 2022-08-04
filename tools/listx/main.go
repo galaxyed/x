@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ory/x/cmdx"
+	"github.com/galaxyed/x/cmdx"
 )
 
 func main() {

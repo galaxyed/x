@@ -11,7 +11,7 @@ import (
 
 	"github.com/knadh/koanf/parsers/json"
 
-	"github.com/ory/x/urlx"
+	"github.com/galaxyed/x/urlx"
 
 	"github.com/spf13/pflag"
 

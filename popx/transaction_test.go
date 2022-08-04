@@ -11,7 +11,7 @@ import (
 	"github.com/gobuffalo/pop/v6"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/x/sqlcon"
+	"github.com/galaxyed/x/sqlcon"
 )
 
 func newDB(t *testing.T) *pop.Connection {

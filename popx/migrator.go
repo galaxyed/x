@@ -14,16 +14,16 @@ import (
 
 	"github.com/cockroachdb/cockroach-go/v2/crdb"
 
-	"github.com/ory/x/cmdx"
+	"github.com/galaxyed/x/cmdx"
 
-	"github.com/ory/x/tracing"
+	"github.com/galaxyed/x/tracing"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
 
 	"github.com/gobuffalo/pop/v6"
 
-	"github.com/ory/x/logrusx"
+	"github.com/galaxyed/x/logrusx"
 
 	"github.com/pkg/errors"
 )
@@ -519,7 +519,7 @@ func (m *Migrator) startSpan(ctx context.Context, opName string) (opentracing.Sp
 	}
 
 	span, ctx := opentracing.StartSpanFromContextWithTracer(ctx, tracer, opName)
-	span.SetTag("component", "github.com/ory/x/popx")
+	span.SetTag("component", "github.com/galaxyed/x/popx")
 
 	span.LogFields()
 	return span, ctx

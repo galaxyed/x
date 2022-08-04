@@ -26,7 +26,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/x/logrusx"
+	"github.com/galaxyed/x/logrusx"
 )
 
 // Retry executes a f until no error is returned or failAfter is reached.

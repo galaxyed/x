@@ -56,7 +56,7 @@ or the [Ory Chat](https://www.ory.sh/chat).
 ## FAQ
 
 - I am new to the community. Where can I find the
-  [Ory Community Code of Conduct?](https://github.com/ory/x/blob/master/CODE_OF_CONDUCT.md)
+  [Ory Community Code of Conduct?](https://github.com/galaxyed/x/blob/master/CODE_OF_CONDUCT.md)
 
 - I have a question. Where can I get
   [answers to questions regarding Ory X?](#communication)
@@ -79,7 +79,7 @@ or the [Ory Chat](https://www.ory.sh/chat).
 ## How can I contribute?
 
 If you want to start contributing code right away, we have a
-[list of good first issues](https://github.com/ory/x/labels/good%20first%20issue).
+[list of good first issues](https://github.com/galaxyed/x/labels/good%20first%20issue).
 
 There are many other ways you can contribute without writing any code. Here are
 a few things you can do to help out:
@@ -149,7 +149,7 @@ request, go through this checklist:
 1. Ensure that each commit has a descriptive prefix. This ensures a uniform
    commit history and helps structure the changelog.  
    Please refer to this
-   [list of prefixes for X](https://github.com/ory/x/blob/master/.github/semantic.yml)
+   [list of prefixes for X](https://github.com/galaxyed/x/blob/master/.github/semantic.yml)
    for an overview.
 1. Sign-up with CircleCI so that it has access to your repository with the
    branch containing your PR. Simply creating a CircleCI account is sufficient
@@ -193,11 +193,11 @@ Reviewers will approve the pull request once they are satisfied with the patch.
 
 Please provide documentation when changing, removing, or adding features.
 Documentation resides in the project's
-[docs](https://github.com/ory/x/tree/master/docs) folder. Generate API and
+[docs](https://github.com/galaxyed/x/tree/master/docs) folder. Generate API and
 configuration reference documentation using `cd docs; npm run gen`.
 
 For further instructions please head over to
-[docs/README.md](https://github.com/ory/x/blob/master/README.md).
+[docs/README.md](https://github.com/galaxyed/x/blob/master/README.md).
 
 ## Disclosing vulnerabilities
 

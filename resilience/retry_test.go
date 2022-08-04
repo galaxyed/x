@@ -8,7 +8,7 @@ import (
 	"github.com/sirupsen/logrus/hooks/test"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ory/x/logrusx"
+	"github.com/galaxyed/x/logrusx"
 )
 
 func TestRetry(t *testing.T) {

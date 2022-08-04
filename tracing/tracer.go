@@ -12,7 +12,8 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 
-	"github.com/ory/x/logrusx"
+	"github.com/galaxyed/x/logrusx"
+	"github.com/getsentry/sentry-go"
 
 	zipkinOT "github.com/openzipkin-contrib/zipkin-go-opentracing"
 	"github.com/openzipkin/zipkin-go"
@@ -209,6 +210,8 @@ func (t *Tracer) setup() error {
 		opentracing.SetGlobalTracer(t.tracer)
 
 		t.l.Infof("OTEL tracer configured!")
+	// case "sentry":
+	// 	t.tracer = sentry.
 	case "":
 		t.l.Infof("No tracer configured - skipping tracing setup")
 	default:

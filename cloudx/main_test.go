@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ory/x/stringsx"
+	"github.com/galaxyed/x/stringsx"
 )
 
 func TestMain(m *testing.M) {

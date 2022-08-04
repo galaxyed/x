@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ory/x/urlx"
+	"github.com/galaxyed/x/urlx"
 )
 
 func TestPaginationHeader(t *testing.T) {

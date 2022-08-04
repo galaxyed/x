@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/ory/x/httpx"
+	"github.com/galaxyed/x/httpx"
 
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"

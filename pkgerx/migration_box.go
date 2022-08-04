@@ -13,7 +13,7 @@ import (
 	"github.com/markbates/pkger"
 	"github.com/pkg/errors"
 
-	"github.com/ory/x/logrusx"
+	"github.com/galaxyed/x/logrusx"
 )
 
 type (

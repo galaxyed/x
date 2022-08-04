@@ -6,7 +6,7 @@ import (
 	"github.com/knadh/koanf"
 	"github.com/knadh/koanf/parsers/json"
 
-	"github.com/ory/x/watcherx"
+	"github.com/galaxyed/x/watcherx"
 
 	"github.com/pkg/errors"
 

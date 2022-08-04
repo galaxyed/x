@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ory/x/cloudx"
+	"github.com/galaxyed/x/cloudx"
 
 	"github.com/pkg/errors"
 
 	"github.com/spf13/cobra"
 
-	"github.com/ory/x/cmdx"
+	"github.com/galaxyed/x/cmdx"
 )
 
 func NewRootCmd() *cobra.Command {

@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/ory/x/cmdx"
+	"github.com/galaxyed/x/cmdx"
 )
 
 // MustJoin joins the paths of two URLs. Fatals if first is not a DSN.

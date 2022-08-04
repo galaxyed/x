@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/x/assertx"
+	"github.com/galaxyed/x/assertx"
 )
 
 func TestKoanfMemory(t *testing.T) {

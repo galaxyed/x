@@ -14,7 +14,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/tidwall/sjson"
 
-	"github.com/ory/x/cmdx"
+	"github.com/galaxyed/x/cmdx"
 )
 
 func getLabel(attrs *cloud.UiNodeInputAttributes, node *cloud.UiNode) string {

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ory/x/logrusx"
-	"github.com/ory/x/tracing"
+	"github.com/galaxyed/x/logrusx"
+	"github.com/galaxyed/x/tracing"
 
 	"github.com/google/uuid"
 	"github.com/pkg/errors"

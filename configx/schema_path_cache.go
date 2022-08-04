@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/ory/x/jsonschemax"
+	"github.com/galaxyed/x/jsonschemax"
 
 	"github.com/dgraph-io/ristretto"
 

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ory/x/logrusx"
+	"github.com/galaxyed/x/logrusx"
 )
 
 // ParseConnectionOptions parses values for max_conns, max_idle_conns, max_conn_lifetime from DSNs.

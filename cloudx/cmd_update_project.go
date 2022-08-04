@@ -4,9 +4,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/ory/x/cmdx"
+	"github.com/galaxyed/x/cmdx"
 
-	"github.com/ory/x/flagx"
+	"github.com/galaxyed/x/flagx"
 )
 
 func NewProjectsUpdateCmd() *cobra.Command {

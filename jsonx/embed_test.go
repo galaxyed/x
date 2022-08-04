@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/x/snapshotx"
+	"github.com/galaxyed/x/snapshotx"
 )
 
 func TestEmbedSources(t *testing.T) {

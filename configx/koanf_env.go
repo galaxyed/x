@@ -14,8 +14,8 @@ import (
 	"github.com/spf13/cast"
 	"github.com/tidwall/gjson"
 
-	"github.com/ory/x/castx"
-	"github.com/ory/x/jsonschemax"
+	"github.com/galaxyed/x/castx"
+	"github.com/galaxyed/x/jsonschemax"
 )
 
 var isNumRegex = regexp.MustCompile("^[0-9]+$")

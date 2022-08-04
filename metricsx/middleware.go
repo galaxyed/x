@@ -35,18 +35,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ory/x/httpx"
+	"github.com/galaxyed/x/httpx"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 
-	"github.com/ory/x/configx"
+	"github.com/galaxyed/x/configx"
 
 	"github.com/spf13/cobra"
 
-	"github.com/ory/x/cmdx"
-	"github.com/ory/x/logrusx"
-	"github.com/ory/x/resilience"
+	"github.com/galaxyed/x/cmdx"
+	"github.com/galaxyed/x/logrusx"
+	"github.com/galaxyed/x/resilience"
 
 	"github.com/pborman/uuid"
 
@@ -215,7 +215,7 @@ func New(
 				Set("optedOut", optOut).
 				Set("instanceId", uuid.New()).
 				Set("isDevelopment", o.IsDevelopment),
-			UserAgent: "github.com/ory/x/metricsx.Service/v0.0.1",
+			UserAgent: "github.com/galaxyed/x/metricsx.Service/v0.0.1",
 		},
 	}
 

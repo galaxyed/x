@@ -21,8 +21,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/x/logrusx"
-	"github.com/ory/x/watcherx"
+	"github.com/galaxyed/x/logrusx"
+	"github.com/galaxyed/x/watcherx"
 )
 
 var ctx = context.Background()
@@ -148,7 +148,7 @@ func TestReload(t *testing.T) {
 		updateConfigFile(t, c, configFile, "memory", "not bar", "bar")
 
 		entries := hook.AllEntries()
-		require.False(t, len(entries) > 4, "%+v", entries) // should be 2 but addresses flake https://github.com/ory/x/runs/2332130952
+		require.False(t, len(entries) > 4, "%+v", entries) // should be 2 but addresses flake https://github.com/galaxyed/x/runs/2332130952
 
 		assert.Equal(t, "A change to a configuration file was detected.", entries[0].Message)
 		assert.Equal(t, "The changed configuration is invalid and could not be loaded. Rolling back to the last working configuration revision. Please address the validation errors before restarting the process.", entries[1].Message)
@@ -183,7 +183,7 @@ func TestReload(t *testing.T) {
 		updateConfigFile(t, c, configFile, "some db", "bar", "baz")
 
 		entries := hook.AllEntries()
-		require.False(t, len(entries) > 4, "%+v", entries) // should be 2 but addresses flake https://github.com/ory/x/runs/2332130952
+		require.False(t, len(entries) > 4, "%+v", entries) // should be 2 but addresses flake https://github.com/galaxyed/x/runs/2332130952
 		assert.Equal(t, "A change to a configuration file was detected.", entries[0].Message)
 		assert.Equal(t, "A configuration value marked as immutable has changed. Rolling back to the last working configuration revision. To reload the values please restart the process.", entries[1].Message)
 		assert.Equal(t, "memory", p.String("dsn"))

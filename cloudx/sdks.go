@@ -8,7 +8,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/x/stringsx"
+	"github.com/galaxyed/x/stringsx"
 
 	cloud "github.com/ory/client-go"
 )

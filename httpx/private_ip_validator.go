@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/ory/x/stringsx"
+	"github.com/galaxyed/x/stringsx"
 
 	"github.com/pkg/errors"
 )

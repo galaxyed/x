@@ -9,8 +9,8 @@ import (
 	"github.com/google/go-jsonnet/formatter"
 	"github.com/spf13/cobra"
 
-	"github.com/ory/x/cmdx"
-	"github.com/ory/x/flagx"
+	"github.com/galaxyed/x/cmdx"
+	"github.com/galaxyed/x/flagx"
 )
 
 // FormatCommand represents the format command

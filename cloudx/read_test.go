@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/x/assertx"
+	"github.com/galaxyed/x/assertx"
 )
 
 func TestReadConfigFiles(t *testing.T) {

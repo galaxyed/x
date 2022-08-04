@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"
 
-	"github.com/ory/x/assertx"
-	"github.com/ory/x/cmdx"
-	"github.com/ory/x/randx"
+	"github.com/galaxyed/x/assertx"
+	"github.com/galaxyed/x/cmdx"
+	"github.com/galaxyed/x/randx"
 )
 
 const testProjectPattern = "ory-cy-e2e-da2f162d-af61-42dd-90dc-e3fcfa7c84a0-"

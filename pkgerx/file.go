@@ -3,7 +3,7 @@ package pkgerx
 import (
 	"io/ioutil"
 
-	"github.com/ory/x/ioutilx"
+	"github.com/galaxyed/x/ioutilx"
 
 	"github.com/markbates/pkger/pkging"
 )

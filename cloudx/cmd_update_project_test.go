@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/gjson"
 
-	"github.com/ory/x/assertx"
-	"github.com/ory/x/cmdx"
-	"github.com/ory/x/snapshotx"
+	"github.com/galaxyed/x/assertx"
+	"github.com/galaxyed/x/cmdx"
+	"github.com/galaxyed/x/snapshotx"
 )
 
 //go:embed fixtures/update/json/config.json

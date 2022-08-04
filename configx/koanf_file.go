@@ -11,11 +11,11 @@ import (
 	"github.com/knadh/koanf/parsers/toml"
 	"github.com/knadh/koanf/parsers/yaml"
 
-	"github.com/ory/x/stringslice"
+	"github.com/galaxyed/x/stringslice"
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/x/watcherx"
+	"github.com/galaxyed/x/watcherx"
 )
 
 // KoanfFile implements a KoanfFile provider.

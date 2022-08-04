@@ -3,7 +3,7 @@ SHELL=/bin/bash -o pipefail
 export PATH := .bin:${PATH}
 
 GO_DEPENDENCIES = github.com/ory/go-acc \
-				  github.com/ory/x/tools/listx \
+				  github.com/galaxyed/x/tools/listx \
 				  github.com/jandelgado/gcov2lcov  \
 				  github.com/golang/mock/mockgen
 

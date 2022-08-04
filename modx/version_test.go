@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-const stub = `module github.com/ory/x
+const stub = `module github.com/galaxyed/x
 
 // remove once https://github.com/seatgeek/logrus-gelf-formatter/pull/5 is merged
 replace github.com/seatgeek/logrus-gelf-formatter => github.com/zepatrik/logrus-gelf-formatter v0.0.0-20210305135027-b8b3731dba10

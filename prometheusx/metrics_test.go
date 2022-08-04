@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	prometheus "github.com/ory/x/prometheusx"
+	prometheus "github.com/galaxyed/x/prometheusx"
 
 	"github.com/julienschmidt/httprouter"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

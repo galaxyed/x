@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/galaxyed/x/snapshotx"
 	"github.com/ory/jsonschema/v3"
-	"github.com/ory/x/snapshotx"
 )
 
 func TestKoanfSchemaDefaults(t *testing.T) {

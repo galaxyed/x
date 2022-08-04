@@ -12,7 +12,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ory/x/assertx"
+	"github.com/galaxyed/x/assertx"
 
 	"github.com/tidwall/gjson"
 

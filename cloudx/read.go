@@ -8,8 +8,8 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/pkg/errors"
 
-	"github.com/ory/x/osx"
-	"github.com/ory/x/stringsx"
+	"github.com/galaxyed/x/osx"
+	"github.com/galaxyed/x/stringsx"
 )
 
 func ReadConfigFiles(files []string) ([]json.RawMessage, error) {

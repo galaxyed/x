@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/ory/x/stringsx"
+	"github.com/galaxyed/x/stringsx"
 
 	"github.com/spf13/cobra"
 
-	"github.com/ory/x/flagx"
+	"github.com/galaxyed/x/flagx"
 )
 
 func NewTunnelCommand(self string, version string) *cobra.Command {

@@ -9,7 +9,7 @@ import (
 	"gonum.org/v1/plot/plotutil"
 	"gonum.org/v1/plot/vg"
 
-	"github.com/ory/x/randx"
+	"github.com/galaxyed/x/randx"
 )
 
 const iterations = 1000 * 100

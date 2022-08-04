@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ory/x/proxy"
+	"github.com/galaxyed/x/proxy"
 
 	"github.com/gofrs/uuid/v3"
 	"github.com/hashicorp/go-retryablehttp"
@@ -24,12 +24,12 @@ import (
 	"github.com/tidwall/gjson"
 	"github.com/urfave/negroni"
 
+	"github.com/galaxyed/x/httpx"
+	"github.com/galaxyed/x/jwksx"
+	"github.com/galaxyed/x/logrusx"
+	"github.com/galaxyed/x/urlx"
 	"github.com/ory/graceful"
 	"github.com/ory/herodot"
-	"github.com/ory/x/httpx"
-	"github.com/ory/x/jwksx"
-	"github.com/ory/x/logrusx"
-	"github.com/ory/x/urlx"
 )
 
 const (

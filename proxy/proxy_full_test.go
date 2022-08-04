@@ -18,12 +18,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ory/x/httpx"
+	"github.com/galaxyed/x/httpx"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/x/urlx"
+	"github.com/galaxyed/x/urlx"
 )
 
 // This test is a full integration test for the proxy.

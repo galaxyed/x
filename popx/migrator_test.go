@@ -15,10 +15,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/x/logrusx"
-	"github.com/ory/x/pkgerx"
-	. "github.com/ory/x/popx"
-	"github.com/ory/x/sqlcon/dockertest"
+	"github.com/galaxyed/x/logrusx"
+	"github.com/galaxyed/x/pkgerx"
+	. "github.com/galaxyed/x/popx"
+	"github.com/galaxyed/x/sqlcon/dockertest"
 )
 
 //go:embed stub/migrations/transactional/*.sql

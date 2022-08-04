@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/ory/x/flagx"
-	"github.com/ory/x/stringsx"
+	"github.com/galaxyed/x/flagx"
+	"github.com/galaxyed/x/stringsx"
 )
 
 func NewProxyCommand(self string, version string) *cobra.Command {

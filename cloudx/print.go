@@ -8,8 +8,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/tidwall/gjson"
 
+	"github.com/galaxyed/x/cmdx"
 	"github.com/ory/client-go"
-	"github.com/ory/x/cmdx"
 )
 
 type bodyer interface {

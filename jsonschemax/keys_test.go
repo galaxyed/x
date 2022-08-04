@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ory/x/snapshotx"
+	"github.com/galaxyed/x/snapshotx"
 
 	"github.com/pkg/errors"
 

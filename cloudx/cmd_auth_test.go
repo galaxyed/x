@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/galaxyed/x/pointerx"
 	cloud "github.com/ory/client-go"
-	"github.com/ory/x/pointerx"
 )
 
 func TestAuthenticator(t *testing.T) {

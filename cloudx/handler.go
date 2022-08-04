@@ -18,7 +18,7 @@ import (
 
 	"github.com/imdario/mergo"
 
-	"github.com/ory/x/jsonx"
+	"github.com/galaxyed/x/jsonx"
 
 	"github.com/gofrs/uuid/v3"
 	"github.com/pkg/errors"
@@ -29,9 +29,9 @@ import (
 
 	cloud "github.com/ory/client-go"
 
-	"github.com/ory/x/cmdx"
-	"github.com/ory/x/flagx"
-	"github.com/ory/x/stringsx"
+	"github.com/galaxyed/x/cmdx"
+	"github.com/galaxyed/x/flagx"
+	"github.com/galaxyed/x/stringsx"
 )
 
 const (

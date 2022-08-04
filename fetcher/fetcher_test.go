@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ory/x/httpx"
+	"github.com/galaxyed/x/httpx"
 
 	"github.com/gobuffalo/httptest"
 	"github.com/julienschmidt/httprouter"

@@ -12,8 +12,8 @@ import (
 	"github.com/hashicorp/go-retryablehttp"
 	"github.com/pkg/errors"
 
-	"github.com/ory/x/httpx"
-	"github.com/ory/x/stringsx"
+	"github.com/galaxyed/x/httpx"
+	"github.com/galaxyed/x/stringsx"
 )
 
 // Fetcher is able to load file contents from http, https, file, and base64 locations.

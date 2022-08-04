@@ -17,22 +17,22 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/ory/x/logrusx"
+	"github.com/galaxyed/x/logrusx"
 
-	"github.com/ory/x/jsonschemax"
+	"github.com/galaxyed/x/jsonschemax"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
 
+	"github.com/galaxyed/x/watcherx"
 	"github.com/ory/jsonschema/v3"
-	"github.com/ory/x/watcherx"
 
 	"github.com/inhies/go-bytesize"
 	"github.com/knadh/koanf/providers/posflag"
 	"github.com/spf13/pflag"
 
-	"github.com/ory/x/stringsx"
-	"github.com/ory/x/tracing"
+	"github.com/galaxyed/x/stringsx"
+	"github.com/galaxyed/x/tracing"
 
 	"github.com/knadh/koanf"
 	"github.com/knadh/koanf/parsers/json"
@@ -272,7 +272,7 @@ func (p *Provider) traceConfig(ctx context.Context, k *koanf.Koanf, opName strin
 	span, ctx := p.startSpan(ctx, opName)
 	defer span.Finish()
 
-	span.SetTag("component", "github.com/ory/x/configx")
+	span.SetTag("component", "github.com/galaxyed/x/configx")
 
 	fields := make([]log.Field, 0, len(k.Keys()))
 	for _, key := range k.Keys() {

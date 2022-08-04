@@ -20,11 +20,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
+	"github.com/galaxyed/x/logrusx"
+	"github.com/galaxyed/x/resilience"
+	"github.com/galaxyed/x/stringsx"
 	"github.com/ory/dockertest/v3"
 	dc "github.com/ory/dockertest/v3/docker"
-	"github.com/ory/x/logrusx"
-	"github.com/ory/x/resilience"
-	"github.com/ory/x/stringsx"
 )
 
 // atexit := atexit.NewOnExit()

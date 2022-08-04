@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ory/x/cmdx"
+	"github.com/galaxyed/x/cmdx"
 )
 
 func NewCreateCmd() *cobra.Command {

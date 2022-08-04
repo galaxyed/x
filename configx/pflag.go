@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/pflag"
 
+	"github.com/galaxyed/x/jsonschemax"
 	"github.com/ory/jsonschema/v3"
-	"github.com/ory/x/jsonschemax"
 )
 
 type PFlagProvider struct {
